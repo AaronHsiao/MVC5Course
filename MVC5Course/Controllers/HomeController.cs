@@ -8,6 +8,7 @@ namespace MVC5Course.Controllers
 {
     public class HomeController : Controller
     {
+
         public ActionResult Index()
         {
             return View();
@@ -15,13 +16,19 @@ namespace MVC5Course.Controllers
 
         public ActionResult About()
         {
+            //TODO shit
             ViewBag.Message = "Your application description page.";
 
+            //Aaron 123
             return View();
         }
 
         public ActionResult Contact()
         {
+
+            
+            
+
             ViewBag.Message = "Your contact page.";
 
             return View();
